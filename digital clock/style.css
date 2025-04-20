@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    text-align: center;
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hours, .minutes, .seconds {
+    font-size: 3rem;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+p {
+    margin: 0;
+    font-size: 1rem;
+    color: white;
+    
+}
